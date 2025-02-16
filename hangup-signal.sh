@@ -3,7 +3,7 @@ gpg --import D:/keys/private.key
 password=$(gpg --decrypt ./encrypted-passowrd.gpg)
 
 # Wait for 1 hour (3600 seconds)
-# sleep 3600
+sleep 3600
 
 # open screen
 adb shell input keyevent 26
